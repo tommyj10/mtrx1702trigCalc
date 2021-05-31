@@ -1,0 +1,13 @@
+
+The input format is a single line of letters and numbers following fields:
+
+<types> <start-value> <final-value> <intermediate-rows>
+These fields must be input in the order shown above, where <types> is a set of letters, and the others are single numbers defining the range of computation.
+
+The <types> field consists of zero or more of the letters from the set <stcdr>, which indicate respectively,
+
+(1) The desired trig functions: sin, tan, cos.
+(2) Whether to use degrees or radians for input parameters.
+(3) Whether to quit the program.
+
+Example input: scr 0 2.3 3
